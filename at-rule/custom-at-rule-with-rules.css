@@ -1,0 +1,11 @@
+@--custom-at-rule {
+  selector {
+    --property: value;
+  }
+}
+
+@--custom-at-rule with prelude {
+  selector {
+    --property: value;
+  }
+}

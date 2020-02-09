@@ -1,0 +1,7 @@
+selector /--custom/ {
+  --property: value;
+}
+
+selector /--custom/ selector {
+  --property: value;
+}

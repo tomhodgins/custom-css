@@ -1,0 +1,11 @@
+selector {
+  --property: --custom();
+}
+
+selector {
+  --property: --custom(custom);
+}
+
+selector {
+  --property: calc(--custom() * 2);
+}

@@ -1,0 +1,7 @@
+selector {
+  --property: --custom;
+}
+
+selector {
+  --property: calc(--custom * 2);
+}

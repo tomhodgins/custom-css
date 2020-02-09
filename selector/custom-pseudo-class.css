@@ -1,0 +1,23 @@
+:--custom {
+  --property: value;
+}
+
+:--custom() {
+  --property: value;
+}
+
+:--custom(custom) {
+  --property: value;
+}
+
+selector:--custom {
+  --property: value;
+}
+
+selector:--custom:hover {
+  --property: value;
+}
+
+selector, selector:--custom {
+  --property: value;
+}

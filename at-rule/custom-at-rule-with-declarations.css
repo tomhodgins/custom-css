@@ -1,0 +1,7 @@
+@--custom-at-rule {
+  --property: value;
+}
+
+@--custom-at-rule with prelude {
+  --property: value;
+}
